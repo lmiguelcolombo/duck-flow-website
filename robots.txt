@@ -1,4 +1,4 @@
-# robots.txt — Cinnamon Services
+# robots.txt — Duck Flow
 # Permite indexação por buscadores e pelos crawlers de IA (GEO/AEO).
 
 User-agent: *
@@ -32,4 +32,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://cinammonservices.com/sitemap.xml
+Sitemap: https://duckflow.com.br/sitemap.xml

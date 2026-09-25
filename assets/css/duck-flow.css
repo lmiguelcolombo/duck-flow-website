@@ -1,8 +1,8 @@
 /* ============================================================
-   CINNAMON DESIGN SYSTEM — "AZURE NOCTURNE"
+   DUCK FLOW DESIGN SYSTEM — "AZURE NOCTURNE"
    Base:  Glyph Foundry (hero de partículas 3D, specimen sheet,
           waterfall de pesos, charset grid, HUD de canto)
-        + Cinnamon DS v1 (botões glow, shiny CTA, beams, card stack,
+        + Duck Flow DS v1 (botões glow, shiny CTA, beams, card stack,
           column reveal, custom select, modal, grain)
    Cor:   proposta.html (ink / navy / bordô / paper) + azul primário
    Extra: Onpace (marquee, steps, solution cards, float, form)
@@ -139,7 +139,7 @@ a{color:inherit;text-decoration:none}
 @keyframes aurora-a{0%{transform:translate3d(0,0,0) scale(1)}100%{transform:translate3d(12vw,8vh,0) scale(1.22)}}
 @keyframes aurora-b{0%{transform:translate3d(0,0,0) scale(1.1)}100%{transform:translate3d(-10vw,-8vh,0) scale(.9)}}
 
-/* — malha de colunas + beams (Lumina/Cinnamon v1) — */
+/* — malha de colunas + beams (Lumina/Duck Flow v1) — */
 .gridlines{position:absolute;inset:0;z-index:0;pointer-events:none;display:flex;max-width:1440px;margin:0 auto;left:0;right:0;opacity:.7}
 .gridlines .gl{flex:1;border-left:1px solid rgba(233,231,228,.045);height:100%;position:relative;overflow:hidden}
 .gridlines .gl:last-child{border-right:1px solid rgba(233,231,228,.045)}
@@ -326,7 +326,7 @@ a{color:inherit;text-decoration:none}
 /* ---------------------------------------------------------------
    8. BOTÕES
    --------------------------------------------------------------- */
-/* 8.1 — primário: glow + partículas (Cinnamon v1) */
+/* 8.1 — primário: glow + partículas (Duck Flow v1) */
 .button-custom{
   cursor:pointer;position:relative;display:inline-flex;align-items:center;justify-content:center;
   overflow:hidden;transition:all var(--d-fast) var(--ease);border-radius:9999px;border:none;
@@ -457,7 +457,7 @@ textarea.field{resize:vertical;min-height:104px}
 .radio.on{border-color:var(--azure);box-shadow:0 0 16px rgba(76,126,243,.25)}
 .radio.on i{transform:scale(1)}
 
-/* — select customizado (Cinnamon v1) — */
+/* — select customizado (Duck Flow v1) — */
 .cs{position:relative}
 .cs-trigger .cs-chevron{transition:transform .35s var(--ease-spring)}
 .cs.open .cs-trigger{border-color:var(--azure);background:rgba(76,126,243,.06);box-shadow:0 0 0 3px rgba(76,126,243,.14)}

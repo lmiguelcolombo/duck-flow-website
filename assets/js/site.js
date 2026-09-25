@@ -1,6 +1,6 @@
 /* ============================================================
-   CINNAMON SERVICES — COMPORTAMENTO DE PÁGINA
-   Depende de cinnamon.js (design system), que já expõe
+   DUCK FLOW — COMPORTAMENTO DE PÁGINA
+   Depende de duck-flow.js (design system), que já expõe
    reduceMotion, scrollToTarget, toggleSelect e pickOption.
    ============================================================ */
 
@@ -115,7 +115,7 @@
        Os dados já saem prontos em payload.                              */
     const payload = Object.fromEntries(new FormData(form).entries());
     payload.frente = form.querySelector('#csFrente .cs-value')?.textContent.trim() || '';
-    console.info('[cinnamon] contato pronto para envio', payload);
+    console.info('[duck-flow] contato pronto para envio', payload);
 
     form.querySelectorAll('.field').forEach(f=> f.classList.add('is-success'));
     if(status){
