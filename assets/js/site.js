@@ -67,6 +67,64 @@ if (form) {
 }
 
 
+// Branded selection control from design-system-v2.html; the native select keeps form data and no-JS fallback.
+const interestSelect = document.querySelector('#interest-select');
+if (interestSelect) {
+  const trigger = interestSelect.querySelector('.select-trigger');
+  const panel = interestSelect.querySelector('.select-panel');
+  const value = interestSelect.querySelector('#interest-value');
+  const nativeSelect = interestSelect.querySelector('.select-native');
+  const options = [...interestSelect.querySelectorAll('.select-option')];
+
+  function setOpen(open, focusOption = false) {
+    interestSelect.classList.toggle('open', open);
+    trigger.setAttribute('aria-expanded', String(open));
+    panel.setAttribute('aria-hidden', String(!open));
+    if (open && focusOption) {
+      (options.find(option => option.getAttribute('aria-selected') === 'true') || options[0]).focus();
+    }
+  }
+
+  function choose(option) {
+    options.forEach(item => item.setAttribute('aria-selected', String(item === option)));
+    value.textContent = option.dataset.value;
+    nativeSelect.value = option.dataset.value;
+    nativeSelect.dispatchEvent(new Event('change', {bubbles: true}));
+    interestSelect.classList.add('has-value');
+    setOpen(false);
+    trigger.focus();
+  }
+
+  trigger.addEventListener('click', () => setOpen(!interestSelect.classList.contains('open'), true));
+  options.forEach(option => option.addEventListener('click', () => choose(option)));
+  interestSelect.addEventListener('keydown', event => {
+    if (event.key === 'Escape') {
+      if (interestSelect.classList.contains('open')) {
+        event.preventDefault();
+        setOpen(false);
+        trigger.focus();
+      }
+      return;
+    }
+    if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+      event.preventDefault();
+      if (!interestSelect.classList.contains('open')) {
+        setOpen(true, true);
+        return;
+      }
+      const current = options.indexOf(document.activeElement);
+      const step = event.key === 'ArrowDown' ? 1 : -1;
+      options[(current + step + options.length) % options.length].focus();
+    }
+  });
+  interestSelect.addEventListener('focusout', event => {
+    if (!interestSelect.contains(event.relatedTarget)) setOpen(false);
+  });
+  document.addEventListener('pointerdown', event => {
+    if (!interestSelect.contains(event.target)) setOpen(false);
+  });
+  document.documentElement.classList.add('custom-select-ready');
+}
 // Same particle glyph specimen as design-system-v2.html.
   const glyphCanvas=document.querySelector('#glyphCanvas');
   if(glyphCanvas){
