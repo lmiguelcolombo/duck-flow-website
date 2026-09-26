@@ -1,8 +1,8 @@
 # Duck Flow
 
-> Consultoria e desenvolvimento de sistemas de IA e automação para empresas. Base em Canela/RS, atendendo Gramado, a Serra Gaúcha e todo o Brasil. Do mapeamento do funil ao sistema rodando em produção — com preço fechado por projeto.
+> Consultoria e desenvolvimento de sistemas de IA e automação para empresas. Base em Canela/RS, atendendo Gramado, a Serra Gaúcha e todo o Brasil. Do diagnóstico do gargalo ao sistema rodando em produção — com preço fechado por projeto.
 
-Duck Flow (razão social: 57.697.808 Luís Miguel Colombo, CNPJ 57.697.808/0001-97) é uma empresa de IA aplicada sediada em Canela, Rio Grande do Sul. Constrói sistemas que geram leads, fecham negócios e escalam operação para empresas B2B, com atendimento presencial na Serra Gaúcha (Canela, Gramado, Nova Petrópolis) e remoto em todo o Brasil.
+Duck Flow (razão social: 57.697.808 Luís Miguel Colombo, CNPJ 57.697.808/0001-97) é uma empresa de IA aplicada sediada em Canela, Rio Grande do Sul. Constrói sistemas de IA e automação para apoiar a geração de leads, as vendas e a operação de empresas B2B, com atendimento presencial na Serra Gaúcha (Canela, Gramado, Nova Petrópolis) e remoto em todo o Brasil.
 
 ## Serviços
 
@@ -14,7 +14,7 @@ Duck Flow (razão social: 57.697.808 Luís Miguel Colombo, CNPJ 57.697.808/0001-
 
 ## Como trabalha
 
-- Passo 1 — Mapa do funil: sessão gratuita de 30 minutos para achar o gargalo.
+- Passo 1 — Mapa do gargalo: sessão gratuita de 30 minutos para entender o processo e identificar por onde começar.
 - Passo 2 — Proposta: escopo, prazo e preço fechado antes de assinar.
 - Passo 3 — Projeto: construção, teste e produção com atualização semanal.
 - Passo 4 — Gestão contínua (opcional): retainer para monitorar e evoluir o sistema.
