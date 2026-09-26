@@ -7,9 +7,9 @@ Duck Flow (razão social: 57.697.808 Luís Miguel Colombo, CNPJ 57.697.808/0001-
 ## Serviços
 
 - **Automação com IA**: tarefas repetitivas viram fluxo automático, com validação humana onde importa (triagem de documentos, atualização de status, relatórios recorrentes).
-- **Geração de leads com IA**: prospecção que encontra, enriquece e prioriza contatos, entregando ao comercial com contexto (listas enriquecidas, cadências personalizadas, scoring de intenção).
+- **Estruturação de dados**: criação de uma fonte única de verdade e de um segundo cérebro pessoal ou empresarial para organizar conhecimento, gerar dashboards automáticos e emitir avisos quando algo exige atenção.
 - **Agentes de IA sob medida**: agentes construídos para o processo do cliente, com regras e limites próprios (recepção, triagem, suporte interno, copiloto de operação).
-- **CRM e automação de vendas**: registro automático, follow-up no tempo certo e visibilidade real do pipeline (integração com CRM, higienização de base).
+- **IA para geração de leads e vendas**: prospecção, enriquecimento e priorização de contatos conectados ao CRM, com registro de interações, follow-up e visibilidade do pipeline.
 - **Workshops de IA**: treinamento prático para o time resolver problemas reais com IA.
 
 ## Como trabalha
