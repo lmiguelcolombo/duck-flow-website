@@ -5,7 +5,7 @@
   const headings = [...document.querySelectorAll('[data-text-reveal]')];
   const fadeTargets = [
     ...document.querySelectorAll('[data-text-fade]'),
-    ...document.querySelectorAll('.section-heading > p, .dark-intro > p, .region-grid > div:first-child > p, .faq-grid > div:first-child > p, .contact-heading > p')
+    ...document.querySelectorAll('.section-heading > p, .dark-intro > p, .team-intro > p, .region-grid > div:first-child > p, .faq-grid > div:first-child > p, .contact-heading > p')
   ];
 
   // Retain <em> and <br> so brand colors, line breaks, and heading semantics survive.
@@ -46,7 +46,11 @@
     '.faq-list > .faq-row',
     '.contact-aside ol > li',
     '.region-card',
-    '.contact-form'
+    '.contact-form',
+    '.team-card',
+    '.deliver-grid > article',
+    '.catalog-list > article',
+    '.related-grid > a'
   ];
 
   for (const selector of itemGroups) {
